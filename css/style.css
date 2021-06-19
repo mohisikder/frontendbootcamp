@@ -1,0 +1,49 @@
+body::before{
+    display: block;
+    content: "";
+    height: 60px;
+}
+.card-hover{
+    box-shadow: 0 20px 10px -10px rgba(0,0,0,0.10);
+    transition: all ease 0.3s;
+}
+.card-hover:hover{
+    box-shadow: 0 20px 10px -5px rgba(0,0,0,0.20);
+}
+/*Social icon hover*/
+.bi-twitter,
+.bi-facebook,
+.bi-linkedin,
+.bi-instagram{
+    transition: all ease 0.3s;
+}
+.card-hover:hover .bi-twitter{
+    color: #26a7de !important
+}
+.card-hover:hover .bi-facebook{
+    color: #3b5998 !important
+}
+.card-hover:hover .bi-linkedin{
+    color: #0e76a8 !important
+}
+.card-hover:hover .bi-instagram{
+    color: #3f729b !important
+}
+
+
+
+/*Map Styles*/
+#map{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+@media (mai-width: 768px) {
+    .news-input{
+        width: 50%;
+    }
+}
